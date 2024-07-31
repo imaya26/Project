@@ -23,7 +23,7 @@ public class Main {
 //		
 //		
 		//new way 4
-		System.out.println("************");
+		System.out.println("*********");
 		li.stream().filter(s -> s.startsWith("C") ).map(s -> s.toUpperCase()).forEach(System.out::println) ;
 		
 		
